@@ -50,7 +50,7 @@ int main()
                     //string txt;
                     ofstream fout;
                     fout.open("Input.txt", ios::app);
-                    fout  << txt << endl;
+                    fout << txt << endl;
 
                     fout.close();
                     return main();
