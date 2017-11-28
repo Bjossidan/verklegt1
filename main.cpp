@@ -21,6 +21,7 @@ int main()
     if(input == 'r'){
             string txt;
 
+
             ifstream fin;
             fin.open("Input.txt");
 
@@ -29,7 +30,8 @@ int main()
                     getline(fin, txt);
                     fin>>txt;
 
-                    cout << "Text: " << txt << endl;
+
+                    cout <<  txt << endl;
                 }
             }
             else{
@@ -39,17 +41,20 @@ int main()
             }
                else if(input == 'w'){
 
-            string txt;
-            cout << "Enter text: " << endl;
-            cin >> txt;
 
-            ofstream fout;
-            fout.open("Input.txt", ios::app);
-            getline()
-            fout << txt << endl;
+                    string txt;
+                    cout << "Enter text:";
+                    cin >> ws;
+                    getline(cin, txt);
 
-            fout.close();
-            return main();
+                    //string txt;
+                    ofstream fout;
+                    fout.open("Input.txt", ios::app);
+                    fout  << txt << endl;
+
+                    fout.close();
+                    return main();
+
 
 
     }
