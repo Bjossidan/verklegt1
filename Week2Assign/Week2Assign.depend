@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1512405181 source:c:\users\viðar\favorites\desktop\forritun verkefni\week2assign\main.cpp
+	"EmployeeUI.h"
+
+1512404983 source:c:\users\viðar\favorites\desktop\forritun verkefni\week2assign\src\model\employee.cpp
+	"Employee.h"
+
+1512403704 c:\users\viðar\favorites\desktop\forritun verkefni\week2assign\include\model\employee.h
+	<iostream>
+	<string>
+
+1512479843 source:c:\users\viðar\favorites\desktop\forritun verkefni\week2assign\src\ui\employeeui.cpp
+	"EmployeeUI.h"
+
+1512426777 c:\users\viðar\favorites\desktop\forritun verkefni\week2assign\include\ui\employeeui.h
+	"Employee.h"
+	"EmployeeService.h"
+
+1512405634 source:c:\users\viðar\favorites\desktop\forritun verkefni\week2assign\src\employeeservice\employeeservice.cpp
+	"EmployeeService.h"
+
+1512405634 c:\users\viðar\favorites\desktop\forritun verkefni\week2assign\include\employeeservice\employeeservice.h
+	"Employee.h"
+
